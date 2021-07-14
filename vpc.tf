@@ -2,7 +2,7 @@ module "vpc" {
     source  = "terraform-google-modules/network/google"
     version = "~> 3.0"
 
-    project_id   = "var.project"
+    project_id   = "p-7zzxhvsegsx1m7q1qkrcj6xnipfc"
     network_name = "guarav-network"
     routing_mode = "GLOBAL"
 
